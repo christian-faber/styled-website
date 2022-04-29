@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="ico" href="favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
 
   <body>
@@ -93,6 +93,42 @@
         <a href="mailto:christian@student.dev-island.org" class="btn">
           <span class="btn__text">CONTACT ME</span>
         </a>
+
+        <div class="modal">
+          <div class="modal__overlay"></div>
+          <div class="modal__body">
+            <header class="modal__header">
+              Contact Me
+              <button class="modal__close-btn">&#x2715;</button>
+            </header>
+            <div class="modal__content">
+              <form class="form">
+                <div class="form__element">
+                  <label for="#name" class="form__label">Name</label>
+                  <input id="name" type="text" class="form__input" />
+                </div>
+                <div class="form__element">
+                  <label for="#email" class="form__label">Email</label>
+                  <input id="email" type="text" class="form__input" />
+                </div>
+                <div class="form__element">
+                  <label for="#email" class="form__label">Message</label>
+                  <textarea
+                    id="message"
+                    type="text"
+                    class="form__textarea"
+                    cols="30"
+                    rows="10"
+                  >
+                  </textarea>
+                </div>
+              </form>
+            </div>
+            <footer class="modal__footer">
+              <button class="modal__action">Send</button>
+            </footer>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">

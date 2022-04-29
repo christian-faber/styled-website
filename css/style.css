@@ -58,14 +58,14 @@ body {
   top: 37px;
 }
 
-.hello {
-  margin-top: 105px;
-}
-
 .dots {
   width: 80px;
   border-top: 6px dotted #eaf6f6;
   margin: 97px auto;
+}
+
+.hello {
+  margin-top: 105px;
 }
 
 .hello__header {

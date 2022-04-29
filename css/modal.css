@@ -1,0 +1,68 @@
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.modal_is_open {
+  display: flex;
+}
+
+.modal__overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modal__body {
+  position: relative;
+  width: 843px;
+  height: 522px;
+  min-width: 300px;
+  border-radius: 4px;
+  padding: 20px 20px 20px 19px;
+  background: #fff;
+}
+.modal__header {
+  font-size: 30px;
+  font-family: "Merriweather";
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 21px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  width: 10px;
+  height: 15px;
+}
+.modal__content {
+  padding-top: 20px;
+}
+
+.modal__footer {
+  text-align: right;
+  padding: 20px 0 0 0;
+}
+
+.modal__action {
+  width: 59px;
+  height: 39px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background: #11999e75;
+  border: #11999e 1px solid;
+  color: #fff;
+}

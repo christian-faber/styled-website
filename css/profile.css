@@ -1,0 +1,27 @@
+.hello {
+  margin-top: 105px;
+}
+
+.hello__header {
+  font-family: "Montserrat";
+  font-size: 39px;
+  text-align: center;
+  font-weight: 400;
+  color: #66bfbf;
+  margin-top: 33px;
+  margin-bottom: 49px;
+}
+
+.hello__image {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+}
+
+.hello p {
+  text-align: center;
+  font-size: 11px;
+  font-family: "Merriweather";
+}
